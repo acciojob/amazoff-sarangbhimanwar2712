@@ -5,7 +5,7 @@ public class DeliveryPartner {
     private String id;
     private int numberOfOrders;
 
-    public DeliveryPartner(String id) {
+    public DeliveryPartner(String id, int i) {
         this.id = id;
         this.numberOfOrders = 0;
     }
